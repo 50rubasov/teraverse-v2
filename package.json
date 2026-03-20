@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -52,6 +52,8 @@
   },
   "pnpm": {
     "overrides": {
-      "@slkzgm/gigaverse-sdk": "file:./slkzgm-gigaverse-sdk-0.0.9.tgz"
+      "@slkzgm/gigaverse-sdk": "file:./slkzgm-gigaverse-sdk-0.0.9.tgz",
+      "@slkzgm/gigaverse-engine": "file:./slkzgm-gigaverse-engine-0.0.6.tgz"
     }
+  }
 }
